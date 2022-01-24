@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B58462C7279EBCBF0050A48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462C6279EBCBF0050A48D /* AppDelegate.swift */; };
 		B58462C9279EBCBF0050A48D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462C8279EBCBF0050A48D /* SceneDelegate.swift */; };
-		B58462CB279EBCBF0050A48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462CA279EBCBF0050A48D /* ViewController.swift */; };
 		B58462CE279EBCBF0050A48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58462CC279EBCBF0050A48D /* Main.storyboard */; };
 		B58462D0279EBCC20050A48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58462CF279EBCC20050A48D /* Assets.xcassets */; };
 		B58462D3279EBCC20050A48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58462D1279EBCC20050A48D /* LaunchScreen.storyboard */; };
+		B58462DB279EBEB80050A48D /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462DA279EBEB80050A48D /* EmojiTableViewController.swift */; };
+		B58462DD279EC8040050A48D /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462DC279EC8040050A48D /* EmojiTableViewCell.swift */; };
+		B58462DF279ECAAF0050A48D /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462DE279ECAAF0050A48D /* EmojiModel.swift */; };
+		B58462E1279EDAB60050A48D /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58462E0279EDAB60050A48D /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B58462C3279EBCBF0050A48D /* EmojiReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58462C6279EBCBF0050A48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58462C8279EBCBF0050A48D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B58462CA279EBCBF0050A48D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B58462CD279EBCBF0050A48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B58462CF279EBCC20050A48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58462D2279EBCC20050A48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58462D4279EBCC20050A48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58462DA279EBEB80050A48D /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		B58462DC279EC8040050A48D /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		B58462DE279ECAAF0050A48D /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		B58462E0279EDAB60050A48D /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		B58462C5279EBCBF0050A48D /* EmojiReader */ = {
 			isa = PBXGroup;
 			children = (
+				B58462DE279ECAAF0050A48D /* EmojiModel.swift */,
 				B58462C6279EBCBF0050A48D /* AppDelegate.swift */,
 				B58462C8279EBCBF0050A48D /* SceneDelegate.swift */,
-				B58462CA279EBCBF0050A48D /* ViewController.swift */,
+				B58462DA279EBEB80050A48D /* EmojiTableViewController.swift */,
+				B58462DC279EC8040050A48D /* EmojiTableViewCell.swift */,
+				B58462E0279EDAB60050A48D /* NewEmojiTableViewController.swift */,
 				B58462CC279EBCBF0050A48D /* Main.storyboard */,
 				B58462CF279EBCC20050A48D /* Assets.xcassets */,
 				B58462D1279EBCC20050A48D /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58462CB279EBCBF0050A48D /* ViewController.swift in Sources */,
 				B58462C7279EBCBF0050A48D /* AppDelegate.swift in Sources */,
+				B58462E1279EDAB60050A48D /* NewEmojiTableViewController.swift in Sources */,
+				B58462DB279EBEB80050A48D /* EmojiTableViewController.swift in Sources */,
+				B58462DD279EC8040050A48D /* EmojiTableViewCell.swift in Sources */,
+				B58462DF279ECAAF0050A48D /* EmojiModel.swift in Sources */,
 				B58462C9279EBCBF0050A48D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +307,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +319,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
