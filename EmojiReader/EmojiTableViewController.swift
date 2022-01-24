@@ -112,9 +112,9 @@ class EmojiTableViewController: UITableViewController {
         let sourceVC = segue.source as! NewEmojiTableViewController
         let emoji = sourceVC.emoji
         
-        if let selected = tableView.indexPathForSelectedRow {
-            objects[selected.row] = emoji
-            tableView.reloadRows(at: [selected], with: .fade)
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            objects[selectedIndexPath.row] = emoji
+            tableView.reloadRows(at: [selectedIndexPath], with: .fade)
         } else {
             let newiIndexPath = IndexPath(row: objects.count, section: 0)
             objects.append(emoji)

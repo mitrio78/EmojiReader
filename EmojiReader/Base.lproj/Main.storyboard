@@ -76,7 +76,7 @@
                     <navigationItem key="navigationItem" id="GeK-fe-dHE">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="hTB-lm-I7b">
                             <connections>
-                                <segue destination="qqH-dd-7eP" kind="show" identifier="newEmoji" id="Fe7-gk-KrP"/>
+                                <segue destination="qqH-dd-7eP" kind="show" identifier="" id="Fe7-gk-KrP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
